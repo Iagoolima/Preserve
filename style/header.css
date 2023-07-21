@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.header {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+.header_top {
+    width: 100%;
+    height: 2.1rem;
+    background-color: #40A37F;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 2rem;
+
+
+}
+
+.box_contact_left {
+    display: flex;
+    gap: 2rem;
+    width: auto;
+}
+
+.box_contact_header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+
+.box_contact_header a {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8em;
+}
+
+
+.box_rede_right {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    gap: 3rem;
+    width: auto;
+}
+
+.box_rede_right img {
+    width: 95%;
+}
+
+
+.header_bottom {
+    width: 100%;
+    height: 5rem;
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10%;
+
+    position: fixed;
+    z-index: 100;
+    box-shadow: -7px 7px 4px 0px rgba(0, 0, 0, 0.25);
+    top: 0;
+
+}
+
+.box_img_header {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+
+}
+
+.box_img_header a {
+    width: 11%;
+}
+
+.box_img_header img {
+
+    width: 100%;
+}
+
+#navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10rem;
+    transition: 0.3s;
+}
+
+.btn_icon_header {
+    display: none;
+}
+
+
+.button_header {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+
+    border-bottom: 1px solid transparent;
+    letter-spacing: 3px;
+
+    transition: 0.8s;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button_header:hover {
+    transition: 0.5s;
+    color: #40A37F;
+    border-bottom: 1px solid #40A37F;
+    padding: 2% 0;
+    outline: none;
+
+}
+
+
+.btn_link_mobile {
+    display: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px
+}

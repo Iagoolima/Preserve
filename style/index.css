@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #40A37F;
+    border-radius: 1px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: #929694;
+    color: rgb(0, 0, 0);
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: white;
+
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 5rem;
+}
+
+#s_one {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+
+    color: white;
+
+
+
+
+}
+
+
+
+.container_s_one_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 40rem;
+    border-bottom: 1px solid white;
+}
+
+
+.box_information_one {
+    background-image: url(../assets/screens/seguranca-trabalho.webp );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+
+.box_information_two {
+    background-image: url(../assets/screens/meio-ambiente.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+
+
+.box_information_three {
+    background-image: url(../assets/screens/avcb.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.9);
+}
+
+.box_text_information_s_one {
+    width: 100%;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Inter', sans-serif;
+    gap: 2rem;
+    background: linear-gradient(315deg, rgba(0, 140, 137, 0.55) 0%, rgba(65, 191, 181, 0.08) 100%);
+}
+
+.box_text_information_s_one h1,
+.box_text_information_s_one p {
+    width: 70%;
+    text-align: left;
+
+}
+
+.box_text_information_s_one h1 {
+    font-size: 3em;
+    height: 20%;
+    font-weight: 600;
+}
+
+.box_text_information_s_one p {
+    font-size: 1em;
+    height: 25%;
+    font-weight: 400;
+}
+
+.box_text_information_s_one a {
+    width: 10rem;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    outline: none;
+    text-decoration: none;
+    border: 1px solid #41BFB5;
+    border-radius: 20px;
+
+    background: linear-gradient(315deg, rgba(0, 140, 137, 0.55) 0%, rgba(65, 191, 181, 0.08) 100%);
+}
+
+.box_information_bottom {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #40A37F;
+    gap: 2rem;
+}
+
+.box_information_bottom h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.2em;
+
+    width: 60%;
+    text-align: center;
+
+    color: #CBF2EF;
+    font-weight: 500;
+
+}
+
+.box_information_bottom p {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+
+    width: 65%;
+    text-align: center;
+    font-weight: 400;
+
+}
+
+
+
+
+#s_two {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #40A37F;
+
+
+
+
+}
+
+
+.box_title_s_two {
+    width: 100%;
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.text_box_content h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.text_box_content p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+
+}
+
+
+.container_content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+
+}
+
+.box_content {
+    width: 50%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 10px;
+
+
+
+    gap: 2rem;
+}
+
+.box_img_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 40%;
+}
+
+.box_img_content img {
+    width: 80px;
+    border-radius: 10px;
+}
+
+.box_img_content h2 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.box_content p {
+    width: 65%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    min-height: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#s_three {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #31795e;
+
+
+}
+
+
+
+
+
+#s_four {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #40A37F;
+
+
+}
+
+
+
+
+
+#s_five {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #27634D;
+
+}
+
+.box_title_s_five {
+    width: 100%;
+    height: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_title_s_five h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.container_sobre_s_five {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+
+}
+
+.box_sobre_s_five {
+    width: 33%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.box_sobre_s_five h2 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.box_sobre_s_five p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 80%;
+
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #313233;
+}
+
+.footer_content {
+    width: 100%;
+    height: 15rem;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.box_info_empresa {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    color: white;
+    gap: 0.5rem;
+}
+
+.box_info_empresa p {
+    text-decoration: none;
+    color: white;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+.box_redes_footer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.link_rede_footer {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.link_rede_footer img {
+    width: 70%;
+}
+
+.link_logo_footer {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.logo_img_footer {
+    width: 40%;
+
+}
+
+.telefone_footer {
+    color: white;
+    text-decoration: none;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    width: auto;
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.sub_footer {
+    width: 100%;
+    min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid white;
+}
+
+
+.sub_footer p {
+    color: white;
+    font-size: 15px;
+    font-family: 'inter', sans-serif;
+}
+
+.link_astral_tech {
+    color: white;
+    text-decoration: none;
+}
+
+.link_astral_tech:hover {
+    text-decoration: underline;
+}
+
+
+#meioambiente,
+#segurancadotrabalho,
+#avcb {
+    height: 3.5rem;
+}

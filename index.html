@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/responsive/res_header.css">
+    <link rel="stylesheet" href="style/responsive/res_s_one.css">
+    <link rel="stylesheet" href="style/responsive/res_s_two.css">
+    <link rel="stylesheet" href="style/responsive/res_s_five.css">
+
+    <link rel="stylesheet" href="style/responsive/res_footer.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta name="description" content="Trabalhe com a nossa consultoria, assim estaremos protegendo vidas e potencializando negócios. Invista na tranquilidade da sua equipe e na produtividade do seu negócio.
+    ">
+    <meta property="og:title" content="Preserve" />
+    <meta property="og:description" content="Trabalhe com a nossa consultoria, assim estaremos protegendo vidas e potencializando negócios. Invista na tranquilidade da sua equipe e na produtividade do seu negócio.
+    " />
+    <meta property="og:image" content="https://www.preserveservice.com.br/assets/logo/logo_empresa.webp" />
+    <meta name="robots" content="index, follow">
+
+    <script defer src="js/header.js"></script>
+
+    <link rel="stylesheet" href="style/responsive/res_index.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="image/favicon//site.webmanifest">
+
+    <title>Preserve</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header_top" id="header_top">
+            <div class="box_contact_left">
+                <div class="box_contact_header">
+                    <img src="assets/icon/email.png" alt="email">
+                    <a href="mailto:comercial@preserveservice.com.br">comercial@preserveservice.com.br</a>
+                </div>
+                <div class="box_contact_header">
+                    <img src="assets/icon/tel.png" alt="telefone">
+                    <a href="tel:+55 (11) 98849-7353">(11) 98849-7353</a>
+                </div>
+            </div>
+
+
+            <div class="box_rede_right">
+                <a href="https://api.whatsapp.com/send?phone=5511988497353&text=Olá,+vim+pelo+site+e+gostaria+de+mais+informações " target="_blank"><img src="assets/icon/whats.png" alt="whatsapp" srcset=""></a>
+                <a href=""><img src="assets/icon/linkedin.png" alt="linkedin" srcset=""></a>
+                <a href=""><img src="assets/icon/Instagram.png" alt="instagram" srcset=""></a>
+            </div>
+        </div>
+
+        <div class="header_bottom" id="header_bottom">
+            <button class="btn_icon_header" onclick="toggleSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <div class="box_img_header">
+                <a href="#">
+                    <img src="assets/logo/logo_empresa.webp" alt="imagem logo">
+                </a>
+            </div>
+
+            <nav id="navigation_header">
+                <button class="btn_icon_header btn_closed" onclick="toggleSidebar()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                    </svg>
+                </button>
+
+                <a href="#top" class="button_header">Inicio</a>
+                <a href="#sobre" class="button_header" class="scroll-link">Sobre</a>
+
+                <a href="mailto:comercial@preserveservice.com.br"
+                    class="btn_link_mobile">comercial@preserveservice.com.br</a>
+                <a href="tel:+55 11 98849-7353" class="btn_link_mobile">(11) 98849-7353</a>
+                <a href="https://api.whatsapp.com/send?phone=5511988497353&text=Olá,+vim+pelo+site+e+gostaria+de+mais+informações " target="_blank" class="btn_link_mobile"><img src="assets/icon/whats.png" alt="whatsapp" srcset=""></a>
+                <a href="" class="btn_link_mobile"><img src="assets/icon/linkedin.png" alt="linkedin" srcset=""></a>
+                <a href="" class="btn_link_mobile"><img src="assets/icon/Instagram.png" alt="instagram" srcset=""></a>
+
+            </nav>
+        </div>
+    </header>
+
+    <main tabindex="0" onclick="closedSideBar()" id="content" id="top">
+
+        <section id="s_one">
+
+            <div class="container_s_one_grid">
+
+                <div class="box_information_one">
+                    <div class="box_text_information_s_one">
+                        <h1 data-aos="fade-down">Segurança do trabalho</h1>
+                        <p data-aos="fade-down">Proteja sua Equipe e Evite Acidentes! Nossa expertise garante um
+                            ambiente seguro e saudável
+                            para seus colaboradores. Invista na prevenção de riscos e promova uma cultura de segurança.
+                            Descubra como podemos ajudar!</p>
+
+                        <a href="#segurancadotrabalho" data-aos="fade-down">Saiba Mais</a>
+                    </div>
+
+                </div>
+
+                <div class="box_information_two">
+
+                    <div class="box_text_information_s_one">
+                        <h1 data-aos="fade-up">Meio Ambiente</h1>
+                        <p data-aos="fade-up">Consultoria especializada em práticas eco-friendly. Reduza impactos,
+                            promova responsabilidade
+                            ambiental e faça a diferença. Junte-se a nós para um futuro mais sustentável!</p>
+
+                        <a href="#meioambiente" data-aos="fade-up">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="box_information_three">
+                    <div class="box_text_information_s_one">
+                        <h1 data-aos="fade-down">AVCB</h1>
+                        <p data-aos="fade-down">Conformidade e Segurança em Destaque! Nossa consultoria garante a
+                            obtenção e manutenção do
+                            Auto de Vistoria do Corpo de Bombeiros. Proteja sua empresa, evite riscos e esteja em
+                            conformidade com as normas de segurança. Descubra como podemos ajudar você!</p>
+
+                        <a href="#avcb" data-aos="fade-down">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="box_information_bottom">
+                <h1>Priorizando a Segurança do Trabalho e o Meio Ambiente: Proteja seus Colaboradores e Promova a
+                    Sustentabilidade</h1>
+
+                <p>Segurança do trabalho e meio ambiente: consultoria especializada para proteção e sustentabilidade
+                    empresarial. Garanta a segurança dos colaboradores e promova práticas sustentáveis. Juntos,
+                    construímos um ambiente de trabalho seguro e responsável.
+                </p>
+            </div>
+
+        </section>
+
+        <section id="s_two">
+            <div id="segurancadotrabalho"></div>
+
+            <div class="box_title_s_two text_box_content">
+                <h1>Seguranca do Trabalho</h1>
+                <p>Nossa consultoria de segurança do trabalho oferece serviços especializados para identificar riscos
+                    ocupacionais, desenvolver planos personalizados e fornecer orientação contínua. Garantimos um
+                    ambiente de trabalho seguro, cumprindo normas e reduzindo custos com acidentes. Conte conosco para
+                    proteger seus colaboradores e promover o bem-estar no local de trabalho.</p>
+            </div>
+            <div class="container_content " data-aos="fade-up">
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/laudos.webp" alt="">
+                        <h2>Laudos</h2>
+                    </div>
+                    <p>
+                        A elaboração de documentos de segurança do trabalho é essencial para sua empresa, pois fornece
+                        diretrizes claras, promove a prevenção de acidentes e garante a conformidade legal, demonstrando
+                        o compromisso com a segurança dos colaboradores.
+                    </p>
+
+                </div>
+
+                <div class="box_content ">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/esocial.webp" alt="">
+                        <h2>eSocial</h2>
+                    </div>
+                    <p>
+                        O cumprimento das obrigações do eSocial é essencial para sua empresa. Isso garante a
+                        conformidade legal e promove um ambiente de trabalho seguro e saudável para os colaboradores.
+                    </p>
+
+                </div>
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/epi.webp" alt="">
+                        <h2>EPI's</h2>
+                    </div>
+                    <p>
+                        Os Equipamentos de Proteção Individual (EPIs) são essenciais para garantir a segurança dos
+                        colaboradores. Eles protegem contra riscos ocupacionais e demonstram o compromisso da empresa
+                        com a segurança e saúde dos trabalhadores.
+                    </p>
+
+                </div>
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/risco.webp" alt="">
+                        <h2>Controle dos Riscos</h2>
+                    </div>
+                    <p>
+                        O controle-riscos é essencial para um ambiente de trabalho seguro. Ao identificar, avaliar e
+                        mitigar os riscos, sua empresa demonstra compromisso com a segurança dos colaboradores e
+                        preserva sua saúde e bem-estar.
+                    </p>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="s_three">
+            <div id="meioambiente"></div>
+            <div class="box_title_s_two text_box_content">
+                <h1>Meio Ambiente</h1>
+                <p>Nossa consultoria ambiental se dedica a prover soluções especializadas para o cuidado do meio
+                    ambiente em sua empresa. Nossos serviços abrangem desde diagnósticos ambientais até a implementação
+                    de práticas sustentáveis. Garantimos a conformidade com as regulamentações ambientais vigentes,
+                    auxiliando na redução de impactos e custos relacionados. Conte conosco para preservar o meio
+                    ambiente, proteger sua empresa e promover um futuro mais sustentável..</p>
+            </div>
+            <div class="container_content " data-aos="fade-up">
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/licenca.webp" alt="">
+                        <h2>Licenciamento Ambiental</h2>
+                    </div>
+                    <p>
+                        A realização do licenciamento ambiental é de extrema importância para o seu empreendimento, pois
+                        estabelece diretrizes sustentáveis, favorece a preservação do meio ambiente e assegura o
+                        cumprimento das normas legais, evidenciando o compromisso com a conservação dos recursos
+                        naturais.
+                    </p>
+
+                </div>
+
+                <div class="box_content ">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/laudos.webp" alt="">
+                        <h2>Programas de logística reversa</h2>
+                    </div>
+                    <p>
+                        Logística reversa é essencial para sua empresa, viabiliza a coleta e tratamento responsável de
+                        resíduos, reduz impacto ambiental e demonstra compromisso com a sustentabilidade.
+
+                    </p>
+
+                </div>
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/gestao.webp" alt="">
+                        <h2>Controle e gestão de resíduos </h2>
+                    </div>
+                    <p>
+                        Controle e gestão de resíduos são fundamentais para a empresa. Garantem o manejo adequado dos
+                        resíduos gerados, a redução de impactos ambientais, o cumprimento das normas regulatórias e a
+                        promoção de práticas sustentáveis.
+                    </p>
+
+                </div>
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/ambiente.webp" alt="">
+                        <h2>Cadastro em plataformas ambientais – SINIR, SIGOR e IBAMA</h2>
+                    </div>
+                    <p>
+                        Cadastro em plataformas ambientais (SINIR, SIGOR e IBAMA) é vital para sua empresa.
+                        Monitoramento, controle e conformidade legal são facilitados, demonstrando compromisso com o
+                        meio ambiente e fortalecendo a imagem da organização.
+                    </p>
+
+                </div>
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/visit.webp" alt="">
+                        <h2>Visitas técnicas </h2>
+                    </div>
+                    <p>
+                        Visitas técnicas são fundamentais para conhecer melhor o funcionamento do empreendimento, trocar
+                        experiências com especialistas, identificar melhorias e fortalecer a atuação sustentável.
+                        Contribuem para a eficiência operacional e alinhamento com o mercado.
+                    </p>
+
+                </div>
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/gestao.webp" alt="">
+                        <h2>PGRS – (Programa de gerenciamento de resíduos sólidos)</h2>
+                    </div>
+                    <p>
+                        O PGRS (Programa de Gerenciamento de Resíduos Sólidos) é essencial para uma gestão responsável,
+                        sustentável e em conformidade com a legislação ambiental. Minimiza impactos, promove a
+                        reciclagem e preserva o meio ambiente.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="s_four">
+            <div id="avcb"></div>
+            <div class="box_title_s_two text_box_content">
+                <h1>AVCB </h1>
+                <p>Nossa consultoria em AVCB oferece serviços especializados para garantir a segurança contra incêndios
+                    em sua empresa. Conte conosco para proteger seus colaboradores e patrimônio, cumprindo normas e
+                    evitando riscos. Segurança em primeiro lugar!</p>
+            </div>
+            <div class="container_content " data-aos="fade-up">
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/bombeiro2.webp" alt="">
+                        <h2>Emissão de AVCB/ CLB junto ao corpo de bombeiro</h2>
+                    </div>
+                    <p>
+                        A emissão do AVCB/CLB junto ao Corpo de Bombeiros é imprescindível para sua empresa, pois
+                        estabelece normas de segurança contra incêndios, previne riscos de ocorrências e garante a
+                        conformidade legal. Demonstra nosso compromisso em proteger colaboradores e patrimônio,
+                        proporcionando um ambiente de trabalho seguro e em total conformidade com as regulamentações
+                        vigentes.
+                    </p>
+
+                </div>
+
+                <div class="box_content ">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/bombeiro.webp" alt="">
+                        <h2>Elaboração de projetos de incêndio</h2>
+                    </div>
+                    <p>
+                        Elaboramos projetos de incêndio personalizados para sua empresa, garantindo segurança e
+                        conformidade com as normas. Proteja colaboradores e patrimônio com nossa consultoria
+                        especializada.
+                    </p>
+
+                </div>
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/fire.webp" alt="">
+                        <h2>Treinamento de brigada de incêndio</h2>
+                    </div>
+                    <p>
+                        Oferecemos treinamento especializado para brigada de incêndio em sua empresa. Nossos instrutores
+                        capacitados preparam sua equipe para agir com rapidez e eficiência em situações de emergência,
+                        minimizando riscos e protegendo vidas. Conte conosco para formar uma brigada de incêndio
+                        preparada e confiante. Segurança em primeiro lugar!
+                    </p>
+
+                </div>
+
+
+
+                <div class="box_content">
+                    <div class="box_img_content">
+                        <img src="assets/screens/icones/risco.webp" alt="">
+                        <h2>Inspeções em hidrantes, extintores, mangueiras, alarmes de incêndio, entre outros.</h2>
+                    </div>
+                    <p>
+                        Realizamos inspeções minuciosas em hidrantes, extintores, mangueiras, alarmes de incêndio e
+                        outros equipamentos. Priorizamos a segurança, garantindo conformidade com as normas e proteção
+                        para sua empresa. Conte conosco para um ambiente de trabalho seguro contra incêndios.
+                    </p>
+
+                </div>
+            </div>
+            <div id="sobre"></div>
+        </section>
+
+        <section id="s_five">
+
+            <div class="box_title_s_five">
+                <h1>Sobre a Preserve</h1>
+            </div>
+            <div class="container_sobre_s_five" data-aos="fade-up">
+                <div class="box_sobre_s_five">
+                    <h2>
+                        Objetivos
+                    </h2>
+                    <p>
+                        temos como objetivo principal oferecer produtos e serviços de alta qualidade que atendam às
+                        necessidades e expectativas de seus clientes. Buscamos constantemente a excelência em todas as
+                        áreas de atuação, desde o desenvolvimento de produtos até o atendimento ao cliente. Nosso
+                        objetivo é estabelecer uma reputação sólida e duradoura como uma empresa confiável e líder em
+                        nosso setor.
+                    </p>
+                </div>
+                <div class="box_sobre_s_five">
+                    <h2>
+                        Valores
+                    </h2>
+                    <p>
+                        Nossos valores são baseados em princípios éticos e morais sólidos. Nossa conduta empresarial é
+                        pautada pela integridade, honestidade e transparência em todas as nossas relações, sejam elas
+                        com clientes, fornecedores ou colaboradores. Valorizamos a colaboração, o respeito mútuo e o
+                        trabalho em equipe, buscando criar um ambiente de trabalho positivo e inclusivo. Além disso, nos
+                        preocupamos com a responsabilidade social e ambiental, buscando contribuir de forma
+                        significativa para a comunidade e adotando práticas sustentáveis em nossas operações.
+                    </p>
+                </div>
+                <div class="box_sobre_s_five">
+                    <h2>
+                        Visão
+                    </h2>
+                    <p>
+                        Nossa visao é se tornar uma referência no mercado, reconhecida pela qualidade de seus produtos e
+                        serviços. Buscamos expandir nossas operações e conquistar novos mercados, mantendo sempre o
+                        compromisso com a satisfação do cliente. Almejamos ser uma empresa inovadora, que se adapta
+                        rapidamente às mudanças e que está na vanguarda da tecnologia e do desenvolvimento. Nossa visão
+                        é construir relacionamentos de longo prazo com nossos clientes, fornecedores e colaboradores,
+                        tornando-nos uma empresa confiável e preferida em nosso ramo de atuação.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="footer_content">
+                <div class="box_info_empresa">
+                    <p>Preserve</p>
+                    <p>São Paulo</p>
+                    <p>TELEFONE: <a href="tel:+55 (11) 98849-7353" class="telefone_footer"> 11988497353</a></p>
+                    <p>comercial@preserveservice.com.br</p>
+                </div>
+
+                <div class="box_redes_footer">
+                    <a href="" class="link_rede_footer"><img src="assets/icon/footer/instagram.webp" alt="instagram"
+                            srcset=""></a>
+                    <a href="" class="link_rede_footer"><img src="assets/icon/footer/linkedin.webp" alt="linkedin"
+                            srcset=""></a>
+                    <a href="https://api.whatsapp.com/send?phone=5511988497353&text=Olá,+vim+pelo+site+e+gostaria+de+mais+informações" target="_blank" class="link_rede_footer"><img src="assets/icon/footer/whatsapp.webp" alt="whatsapp"
+                            srcset=""></a>
+                </div>
+
+                <a href="#" class="link_logo_footer">
+                    <img src="assets/logo/logo_empresa_footer.webp" alt="img_logo" class="logo_img_footer">
+                </a>
+            </div>
+
+
+            <div class="sub_footer">
+                <p>&copy; desde 2023, todos os direitos reservados.</p>
+
+                <p>Desenvolvido por <a href="https://www.instagram.com/astral_teech/" target="_blank"  class="link_astral_tech">Astral Tech</a></p>
+            </div>
+
+
+        </footer>
+
+    </main>
+
+
+
+</body>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 2000,
+        offset: 20
+    });
+</script>
+
+</html>

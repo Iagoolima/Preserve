@@ -1,0 +1,180 @@
+@media screen and (max-width:1444px) {
+
+
+    footer {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #313233;
+    }
+
+    .footer_content {
+        width: 100%;
+        min-height: 15rem;
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+
+    .box_info_empresa {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+
+        font-size: 15px;
+        font-family: 'inter', sans-serif;
+        color: white;
+        gap: 0.5rem;
+    }
+
+    .box_redes_footer {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+
+    .link_rede_footer img {
+        width: 70%;
+    }
+
+
+    .sub_footer {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 1px solid white;
+    }
+
+
+    .sub_footer p {
+        color: white;
+        font-size: 12px;
+        font-family: 'inter', sans-serif;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .footer_content {
+        width: 100%;
+        min-height: 15rem;
+        padding: 0px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box_info_empresa {
+        font-size: 13px;
+        gap: 0.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box_redes_footer {
+        gap: 2rem;
+    }
+
+
+    .link_rede_footer {
+        display: flex;
+        width: 15%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .sub_footer {
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border-top: 1px solid white;
+    }
+
+
+    .sub_footer p {
+        color: white;
+        font-size: 12px;
+        font-family: 'inter', sans-serif;
+    }
+
+    .logo_img_footer {
+        width: 50%;
+
+    }
+}
+
+@media screen and (max-width:834px) {
+    .footer_content {
+        width: 100%;
+        height: auto;
+        padding: 3rem 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 3rem;
+
+    }
+
+
+    .sub_footer {
+        flex-direction: column;
+
+        gap: 1rem;
+        padding: 2rem;
+    }
+
+
+    .sub_footer p {
+        color: white;
+        font-size: 10px;
+
+    }
+
+    .logo_img_footer {
+        width: 60%;
+    }
+
+    .box_info_empresa {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .box_redes_footer img {
+        width: 60%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width:525px) {
+
+    .link_logo_footer {
+        width: 40%;
+    }
+
+    .logo_img_footer {
+        width: 100%;
+    }
+
+    .telefone_footer {
+        padding-left: 15px;
+    }
+}
